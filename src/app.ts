@@ -5,7 +5,9 @@
 // const { getUserById } = require('./js-fundation/04-arrow-functions');
 // const { buildMakePerson } = require('./js-fundation/05-factory');
 // const getPokemonById = require('./js-fundation/06-promises');
-const { buildLogger } = require('./plugins');
+// const { buildLogger } = require('./plugins');
+
+import { buildLogger } from "./plugins/logger.plugin";
 
 // console.log(emailTemplate);
 
