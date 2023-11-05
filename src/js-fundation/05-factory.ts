@@ -13,7 +13,7 @@ interface PersonOptions {
     birthdate: string;
 }
 
-const buildMakePerson = ({ getUuid, getAge }: BuildMakerPersonOptions) => {
+export const buildMakePerson = ({ getUuid, getAge }: BuildMakerPersonOptions) => {
 
     return ({ name, birthdate }: PersonOptions) => {
         return {
